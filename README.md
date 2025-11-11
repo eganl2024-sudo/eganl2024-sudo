@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi, I'm Liam 👋  
+I'm an MSBA student at the University of Notre Dame with a background in Chemical Engineering.  
+I love exploring data through Python, R, and SQL to find meaningful insights.  
 
-<!--
-**eganl2024-sudo/eganl2024-sudo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Technical Skills:**  
+- Languages: Python, R, SQL  
+- Tools: Tableau, Power BI, Excel, Git  
+- Interests: Sports Analytics, Business Strategy, Data Engineering  
 
-Here are some ideas to get you started:
+**Featured Projects (coming soon):**  
+- Data Wrangling Practice  
+- EDA Dashboard  
+- SQL Analytics Portfolio  
+- Predictive Modeling  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📫 Connect with me: [LinkedIn](https://linkedin.com/in/liam-egan-)
