@@ -7,10 +7,12 @@ I love exploring data through Python, R, and SQL to find meaningful insights.
 - Tools: Tableau, Power BI, Excel, Git  
 - Interests: Sports Analytics, Business Strategy, Data Engineering  
 
-**Featured Projects (coming soon):**  
+**Featured Projects:**  
 - Data Wrangling Practice  
-- EDA Dashboard  
-- SQL Analytics Portfolio  
-- Predictive Modeling  
+- FIFA Player Analysis
+
+**Coming Soon!**
+- Stock Forecasting
+- Energy Time-Series Forecasting
 
 📫 Connect with me: [LinkedIn](https://linkedin.com/in/liam-egan-)
