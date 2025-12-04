@@ -10,9 +10,11 @@ I love exploring data through Python, R, and SQL to find meaningful insights.
 **Featured Projects:**  
 - Data Wrangling Practice  
 - FIFA Player Analysis
+- Oil and Gas Financial Analysis 2018-2022
 
 **Coming Soon!**
 - Stock Forecasting
 - Energy Time-Series Forecasting
+- NBA Player Salary Valuation Model
 
 📫 Connect with me: [LinkedIn](https://linkedin.com/in/liam-egan-)
