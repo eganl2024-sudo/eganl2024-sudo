@@ -1,77 +1,44 @@
 # Liam Egan
 
-Data-driven professional applying chemical engineering and business analytics to build predictive models and decision tools across sports, finance, and operations. MSBA candidate (2026) at University of Notre Dame.
+**Chemical Engineering | MS Business Analytics | University of Notre Dame (2026)**
 
-Currently focused on building applied analytics tools for performance modeling and decision support.
+I combine technical engineering expertise with advanced financial modeling to build decision-support tools for the energy and sports sectors. Currently transitioning from a background in Chemical Engineering (Process Design & Thermodynamics) to Energy Investment Banking.
 
----
-
-## Technical Skills
-
-**Languages:** Python, R, SQL  
-**Modeling & Analytics:** scikit-learn, pandas, NumPy, TensorFlow/Keras  
-**Data Applications & Visualization:** Streamlit, Plotly, Tableau, Power BI, Excel  
-**Specialties:** Predictive Modeling, Machine Learning, Sports Analytics, Financial Analysis, Data Engineering
+### 🛠 Technical Toolkit
+* **Core Languages:** Python, R, SQL
+* **Financial & Data Analysis:** Time-Series Forecasting, Valuation Modeling, Sensitivity Analysis (CAPEX/OPEX), Pandas, NumPy
+* **Engineering Integration:** Process Simulation (Aspen Plus), Mass/Energy Balance Optimization
 
 ---
 
-## Featured Projects
+### 📌 Featured Projects
 
-### NBA Player Salary Valuation Model
-Predictive machine learning model that estimates NBA player salaries based on performance metrics and market comparables. Built on multi-season player performance data with rigorous out-of-sample validation to ensure accurate salary benchmarking for players, teams, and agents.
+#### 1. Post-COVID Recovery Analysis: Oil & Gas Sector
+*Financial and operational resilience modeling of the O&G sector (2018-2022).*
+* **The Business Case:** Analyzed the recovery trajectory of major upstream players following the 2020 demand shock.
+* **Engineering Edge:** Leveraged background in Chemical Engineering to contextualize financial data against upstream operational realities (production constraints and refining margins).
+* **Key Focus:** Sector resilience, correlation between operational downtime and pricing volatility.
+* **Tech Stack:** Python (Pandas), Financial Time-Series Analysis, Excel.
 
-**Tech Stack:** Python, scikit-learn, pandas  
-**Key Focus:** Regression analysis, feature importance, market dynamics, cross-validation methodology
+#### 2. NBA Player Salary Valuation Model
+*Predictive valuation model estimating player market value against salary cap constraints.*
+* **The Business Case:** Developed a benchmarking tool to identify arbitrage opportunities in player contracts (undervalued vs. overvalued assets).
+* **Methodology:** Utilized regression analysis and historical performance data to project "fair market value" salaries.
+* **Tech Stack:** Python, Scikit-learn, Regression Analysis.
 
----
+#### 3. Grow Irish Performance Analytics (Full-Stack App)
+*Scalable telemetry platform transforming raw GPS data into coaching strategy.*
+* **The Business Case:** Automated the analysis of metabolic power demand (MDP) to optimize training load and reduce injury risk for D1 athletes.
+* **Outcome:** Built a deployable Streamlit application currently used for "Coach vs. Analyst" reporting views.
+* **Tech Stack:** Streamlit, Plotly, SQL.
 
-### Grow Irish Performance Analytics
-Full-stack Streamlit web application that transforms GPS tracking data into actionable coaching insights for soccer teams. Analyzes metabolic power demand (MDP) and session intensity to help coaching staff make data-informed training decisions.
-
-**Key Features:**
-- Session intensity classification with composite z-score methodology
-- Metabolic power analysis across 10s, 20s, and 30s windows
-- Workload distribution analysis for player monitoring
-- Dual interface: Coach View (key headlines) and Analyst View (detailed metrics)
-- Configurable intensity weighting presets (match-like, speed emphasis, conditioning)
-
-**Tech Stack:** Streamlit, pandas, NumPy, Plotly, scikit-learn  
-**Repository:** [MDP_APP](https://github.com/eganl2024-sudo/MDP_APP)
-
----
-
-### FIFA Player Progression: Deep Learning Prediction
-Developed a deep learning model to predict FIFA player rating changes using neural networks, benchmarked against traditional regression and tree-based models. Achieved 5% improvement over baseline through advanced feature engineering and architectural optimization.
-
-**Performance:** 5% improvement over conventional ML models  
-**Tech Stack:** Python, TensorFlow/Keras, pandas, NumPy  
-**Key Methods:** Deep learning, feature engineering, hyperparameter tuning, comparative model validation
+#### 4. FIFA Player Progression (Deep Learning)
+*Benchmarking neural networks against traditional regression for asset progression.*
+* **Result:** Achieved 5% accuracy improvement over baseline models via architectural optimization.
+* **Tech Stack:** TensorFlow/Keras, Deep Learning.
 
 ---
 
-### Post-COVID Recovery Analysis: Oil & Gas Sector (2018-2022)
-Financial and operational analysis examining the recovery trajectory of the oil and gas industry following the COVID-19 pandemic. Leveraged chemical engineering expertise combined with financial analytics to assess market dynamics and sector resilience.
-
-**Analysis Type:** Financial time-series analysis, sector recovery modeling  
-**Tech Stack:** Python, pandas, Excel, data visualization
-
----
-
-## Education
-
-**University of Notre Dame**
-- Master of Science in Business Analytics (MSBA) — 2026
-- Bachelor of Science in Chemical Engineering — 2025
-
-**Athletic Achievement:** 5-year Division I goalkeeper balancing elite athletics with rigorous STEM coursework
-
----
-
-## Connect
-
-📧 [LinkedIn](https://www.linkedin.com/in/liam-egan-/)  
-🔗 GitHub: [@eganl2024-sudo](https://github.com/eganl2024-sudo)
-
----
-
-*Leveraging data science and engineering expertise to solve real-world business problems.*
+### 📬 Connect
+* **LinkedIn:** [linkedin.com/in/liam-egan-](https://www.linkedin.com/in/liam-egan-/)
+* **Email:** ljegan01@gmail.com
