@@ -1,44 +1,63 @@
+<div align="center">
+
 # Liam Egan
+**Chemical Engineering (BS) | MS Business Analytics | University of Notre Dame ('26)**
 
-**Chemical Engineering | MS Business Analytics | University of Notre Dame (2026)**
+[LinkedIn](https://www.linkedin.com/in/liam-egan-) | [Email](mailto:ljegan01@gmail.com) | [Portfolio](https://github.com/eganl2024-sudo)
 
-I combine technical engineering expertise with advanced financial modeling to build decision-support tools for the energy and sports sectors. Currently transitioning from a background in Chemical Engineering (Process Design & Thermodynamics) to Energy Investment Banking.
-
-### 🛠 Technical Toolkit
-* **Core Languages:** Python, R, SQL
-* **Financial & Data Analysis:** Time-Series Forecasting, Valuation Modeling, Sensitivity Analysis (CAPEX/OPEX), Pandas, NumPy
-* **Engineering Integration:** Process Simulation (Aspen Plus), Mass/Energy Balance Optimization
+</div>
 
 ---
 
-### 📌 Featured Projects
+### 🏛️ Professional Summary
+**Engineering-driven Analyst transitioning to Energy Investment Banking.**
+I leverage a background in **Chemical Process Engineering** (Thermodynamics, Mass Balance) to build rigorous financial valuation models for the energy sector. My work focuses on quantifying the "Physical Reality" of assets—from reservoir depletion to metabolic power demand—rejecting standard assumptions in favor of engineered precision.
 
-#### 1. Post-COVID Recovery Analysis: Oil & Gas Sector
-*Financial and operational resilience modeling of the O&G sector (2018-2022).*
-* **The Business Case:** Analyzed the recovery trajectory of major upstream players following the 2020 demand shock.
-* **Engineering Edge:** Leveraged background in Chemical Engineering to contextualize financial data against upstream operational realities (production constraints and refining margins).
-* **Key Focus:** Sector resilience, correlation between operational downtime and pricing volatility.
-* **Tech Stack:** Python (Pandas), Financial Time-Series Analysis, Excel.
-
-#### 2. NBA Player Salary Valuation Model
-*Predictive valuation model estimating player market value against salary cap constraints.*
-* **The Business Case:** Developed a benchmarking tool to identify arbitrage opportunities in player contracts (undervalued vs. overvalued assets).
-* **Methodology:** Utilized regression analysis and historical performance data to project "fair market value" salaries.
-* **Tech Stack:** Python, Scikit-learn, Regression Analysis.
-
-#### 3. Grow Irish Performance Analytics (Full-Stack App)
-*Scalable telemetry platform transforming raw GPS data into coaching strategy.*
-* **The Business Case:** Automated the analysis of metabolic power demand (MDP) to optimize training load and reduce injury risk for D1 athletes.
-* **Outcome:** Built a deployable Streamlit application currently used for "Coach vs. Analyst" reporting views.
-* **Tech Stack:** Streamlit, Plotly, SQL.
-
-#### 4. FIFA Player Progression (Deep Learning)
-*Benchmarking neural networks against traditional regression for asset progression.*
-* **Result:** Achieved 5% accuracy improvement over baseline models via architectural optimization.
-* **Tech Stack:** TensorFlow/Keras, Deep Learning.
+Currently President of the **Student-Athlete Advisory Council** at Notre Dame, representing 700+ D1 athletes while completing an MSBA.
 
 ---
 
-### 📬 Connect
-* **LinkedIn:** [linkedin.com/in/liam-egan-](https://www.linkedin.com/in/liam-egan-/)
-* **Email:** ljegan01@gmail.com
+### 📈 Featured Investment Thesis
+#### [Energy Valuation Engine: The "Managed Decline" Model](https://github.com/eganl2024-sudo/Energy-Valuation-Analysis)
+*A Python-based valuation platform designed to stress-test Energy Majors against the energy transition.*
+
+* **The Problem:** Traditional DCF models assume perpetual +2% growth, ignoring the physical reality of reservoir depletion and capital intensity.
+* **The Solution:** Architected a "Managed Decline" valuation logic (-1.5% terminal growth) to quantify the floor value of fossil assets.
+* **Key Findings:** Modeled **ExxonMobil (XOM)** to reveal ~13% upside at $85/bbl oil, identifying a "Cash Cow" arbitrage opportunity where the market is pricing in an overly aggressive transition.
+* **Technical Stack:** Python (Pandas), Object-Oriented Financial Modeling, Sensitivity Analysis, WACC/CAPM Stratification.
+
+---
+
+### 🛠️ Technical Competencies
+
+| Domain | Toolkit |
+| :--- | :--- |
+| **Financial Analysis** | DCF Valuation, LBO Fundamentals, WACC/Beta Stratification, Sensitivity Modeling (Football Fields), Commodity Risk Pricing |
+| **Data Engineering** | Python (Pandas, NumPy), SQL, R, API Integration (Yahoo Finance/FMP), Time-Series Forecasting |
+| **Process Engineering** | Aspen Plus, Process Simulation, Mass & Energy Balance, Capital Cost Estimation (CAPEX/OPEX) |
+| **Visualization** | Streamlit, Tableau, Plotly, Excel (VBA/Advanced Modeling) |
+
+---
+
+### 📂 Selected Project Portfolio
+
+**[Grow Irish: Performance Telemetry Platform](https://github.com/YOUR_LINK_HERE)**
+* **Scope:** Full-stack development of a telemetry application to optimize Metabolic Power Demand (MPD) for D1 athletes.
+* **Impact:** Deployed a "Coach vs. Analyst" reporting dashboard currently used to reduce soft-tissue injury risk during training blocks.
+* **Stack:** Streamlit, SQL, GPS Data Processing.
+
+**[Post-COVID Resilience: Upstream O&G Analysis](https://github.com/YOUR_LINK_HERE)**
+* **Scope:** Modeled the divergence between operational recovery (production volume) and financial recovery (EBITDA margins) for upstream majors (2018–2022).
+* **Impact:** Quantified the correlation between refining crack spreads and operational downtime during the 2020 demand shock.
+* **Stack:** Python, Financial Time-Series.
+
+**[NBA Salary Arbitrage Engine](https://github.com/YOUR_LINK_HERE)**
+* **Scope:** Developed a regression-based benchmarking tool to identify inefficiencies in the player contract market.
+* **Impact:** Flagged "arbitrage assets" by comparing projected output (PER/Win Shares) against cap-hit, identifying undervalued talent.
+* **Stack:** Python, Scikit-learn, Regression Analysis.
+
+---
+
+<div align="center">
+<sub>&copy; 2026 Liam Egan. Built for Energy Finance.</sub>
+</div>
