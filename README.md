@@ -19,7 +19,7 @@ Currently President of the **Student-Athlete Advisory Council** at Notre Dame, r
 
 ### 🚀 Flagship Intelligence Platforms
 
-#### 1. [Energy Capital Discipline Monitor (Live Risk Engine)](https://github.com/eganl2024-sudo/Post-COVID-recovery-in-Oil-and-Gas)
+#### 1. [Energy Capital Discipline Monitor (Live Risk Engine)](https://github.com/eganl2024-sudo/Energy-Capital-Discipline-Monitor)
 *A real-time fintech platform tracking shareholder yield, solvency, and capital allocation across the Oil & Gas Super-Majors.*
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-capital-monitor.streamlit.app)
@@ -52,12 +52,12 @@ Currently President of the **Student-Athlete Advisory Council** at Notre Dame, r
 
 ### 📂 Selected Project Portfolio
 
-**[Grow Irish: Performance Telemetry Platform](https://github.com/eganl2024-sudo/MDP_APP)**
+**[Grow Irish: Performance Telemetry Platform](https://github.com/eganl2024-sudo/Grow-Irish-Platform)**
 * **Scope:** Full-stack development of a telemetry application to optimize Metabolic Power Demand (MPD) for D1 athletes.
 * **Impact:** Deployed a "Coach vs. Analyst" reporting dashboard currently used to reduce soft-tissue injury risk during training blocks.
 * **Stack:** Streamlit, SQL, GPS Data Processing.
 
-**[NBA Salary Arbitrage Engine](https://github.com/eganl2024-sudo/fifa-player-progression)**
+**[NBA Salary Arbitrage Engine](https://github.com/eganl2024-sudo/NBA-Salary-Arbitrage)**
 * **Scope:** Developed a regression-based benchmarking tool to identify inefficiencies in the player contract market.
 * **Impact:** Flagged "arbitrage assets" by comparing projected output (PER/Win Shares) against cap-hit, identifying undervalued talent (e.g., identifying "Moneyball" candidates).
 * **Stack:** Python, Scikit-learn, Regression Analysis.
