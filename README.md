@@ -11,20 +11,31 @@
 
 ### 🏛️ Professional Summary
 **Engineering-driven Analyst transitioning to Energy Investment Banking.**
-I leverage a background in **Chemical Process Engineering** (Thermodynamics, Mass Balance) to build rigorous financial valuation models for the energy sector. My work focuses on quantifying the "Physical Reality" of assets—from reservoir depletion to metabolic power demand—rejecting standard assumptions in favor of engineered precision.
+I leverage a background in **Chemical Process Engineering** (Thermodynamics, Mass Balance) to build rigorous financial intelligence platforms for the energy sector. My work focuses on quantifying the "Physical Reality" of assets—rejecting standard accounting assumptions in favor of engineered precision (e.g., modeling reservoir decline curves vs. perpetual growth).
 
 Currently President of the **Student-Athlete Advisory Council** at Notre Dame, representing 700+ D1 athletes while completing an MSBA.
 
 ---
 
-### 📈 Featured Investment Thesis
-#### [Energy Valuation Engine: The "Managed Decline" Model](https://github.com/eganl2024-sudo/Energy-Valuation-Analysis)
-*A Python-based valuation platform designed to stress-test Energy Majors against the energy transition.*
+### 🚀 Flagship Intelligence Platforms
 
-* **The Problem:** Traditional DCF models assume perpetual +2% growth, ignoring the physical reality of reservoir depletion and capital intensity.
+#### 1. [Energy Capital Discipline Monitor (Live Risk Engine)](https://github.com/eganl2024-sudo/Post-COVID-recovery-in-Oil-and-Gas)
+*A real-time fintech platform tracking shareholder yield, solvency, and capital allocation across the Oil & Gas Super-Majors.*
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-capital-monitor.streamlit.app)
+
+* **The Thesis:** The market has shifted from "Volume" to "Value." Investors no longer reward growth; they reward **Cash Flow Durability**.
+* **The Solution:** Engineered a live diagnostic engine that normalizes global accounting data (US GAAP vs. IFRS) to calculate **Dividend Sustainability Ratios (DSR)** and **Cash Breakevens** in real-time.
+* **Key Alpha:** Built an interactive "Oil Price Shock" simulator (0-50% OCF downturn). **Finding:** Shell (SHEL) currently displays higher solvency resilience than Chevron (CVX) under a 40% crash scenario, challenging historical sector norms.
+* **Stack:** Python, Streamlit (Bloomberg UI), `yfinance` Data Ingress, LRU Caching, Arps-style Breakeven Logic.
+
+#### 2. [Energy Valuation Engine: The "Managed Decline" Model](https://github.com/eganl2024-sudo/Energy-Valuation-Analysis)
+*A forward-looking valuation tool designed to stress-test Energy Majors against the energy transition.*
+
+* **The Problem:** Standard DCF models assume perpetual +2% growth, ignoring the physical reality of reservoir depletion.
 * **The Solution:** Architected a "Managed Decline" valuation logic (-1.5% terminal growth) to quantify the floor value of fossil assets.
-* **Key Findings:** Modeled **ExxonMobil (XOM)** to reveal ~13% upside at $85/bbl oil, identifying a "Cash Cow" arbitrage opportunity where the market is pricing in an overly aggressive transition.
-* **Technical Stack:** Python (Pandas), Object-Oriented Financial Modeling, Sensitivity Analysis, WACC/CAPM Stratification.
+* **Key Alpha:** Modeled **ExxonMobil (XOM)** to reveal ~13% upside at $85/bbl oil, identifying a "Cash Cow" arbitrage opportunity where the market is pricing in an overly aggressive transition.
+* **Stack:** Python (Pandas), Sensitivity Analysis (Football Fields), WACC/CAPM Stratification.
 
 ---
 
@@ -32,28 +43,23 @@ Currently President of the **Student-Athlete Advisory Council** at Notre Dame, r
 
 | Domain | Toolkit |
 | :--- | :--- |
-| **Financial Analysis** | DCF Valuation, LBO Fundamentals, WACC/Beta Stratification, Sensitivity Modeling (Football Fields), Commodity Risk Pricing |
-| **Data Engineering** | Python (Pandas, NumPy), SQL, R, API Integration (Yahoo Finance/FMP), Time-Series Forecasting |
+| **Financial Analysis** | DCF Valuation, LBO Fundamentals, Dividend Stress Testing, Shareholder Yield Analysis, Capital Discipline Modeling |
+| **Data Engineering** | Python (Pandas, NumPy), SQL, R, Live API Integration (`yfinance`), Data Normalization (IFRS/GAAP Mapping) |
 | **Process Engineering** | Aspen Plus, Process Simulation, Mass & Energy Balance, Capital Cost Estimation (CAPEX/OPEX) |
-| **Visualization** | Streamlit, Tableau, Plotly, Excel (VBA/Advanced Modeling) |
+| **Visualization** | Streamlit, Plotly (Dynamic Event Overlays), Tableau, Advanced Excel |
 
 ---
 
 ### 📂 Selected Project Portfolio
 
-**[Grow Irish: Performance Telemetry Platform](https://github.com/YOUR_LINK_HERE)**
+**[Grow Irish: Performance Telemetry Platform](https://github.com/eganl2024-sudo/MDP_APP)**
 * **Scope:** Full-stack development of a telemetry application to optimize Metabolic Power Demand (MPD) for D1 athletes.
 * **Impact:** Deployed a "Coach vs. Analyst" reporting dashboard currently used to reduce soft-tissue injury risk during training blocks.
 * **Stack:** Streamlit, SQL, GPS Data Processing.
 
-**[Post-COVID Resilience: Upstream O&G Analysis](https://github.com/YOUR_LINK_HERE)**
-* **Scope:** Modeled the divergence between operational recovery (production volume) and financial recovery (EBITDA margins) for upstream majors (2018–2022).
-* **Impact:** Quantified the correlation between refining crack spreads and operational downtime during the 2020 demand shock.
-* **Stack:** Python, Financial Time-Series.
-
-**[NBA Salary Arbitrage Engine](https://github.com/YOUR_LINK_HERE)**
+**[NBA Salary Arbitrage Engine](https://github.com/eganl2024-sudo/fifa-player-progression)**
 * **Scope:** Developed a regression-based benchmarking tool to identify inefficiencies in the player contract market.
-* **Impact:** Flagged "arbitrage assets" by comparing projected output (PER/Win Shares) against cap-hit, identifying undervalued talent.
+* **Impact:** Flagged "arbitrage assets" by comparing projected output (PER/Win Shares) against cap-hit, identifying undervalued talent (e.g., identifying "Moneyball" candidates).
 * **Stack:** Python, Scikit-learn, Regression Analysis.
 
 ---
