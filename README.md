@@ -3,7 +3,7 @@
 # Liam Egan
 **Chemical Engineering (BS) | MS Business Analytics | University of Notre Dame ('26)**
 
-[LinkedIn](https://www.linkedin.com/in/liam-egan-) | [Email](mailto:ljegan01@gmail.com) | [Portfolio](https://github.com/eganl2024-sudo)
+[LinkedIn](https://www.linkedin.com/in/liam-egan-) | [Email](mailto:ljegan01@gmail.com) | [Portfolio](https://github.com/eganl2024-sudo?tab=repositories)
 
 </div>
 
