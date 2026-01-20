@@ -37,7 +37,7 @@ Currently serving as President of the **Student-Athlete Advisory Council** at No
 #### 2. [Energy Capital Discipline Monitor (Live Risk Engine)](https://github.com/eganl2024-sudo/Post-COVID-recovery-in-Oil-and-Gas)
 *Real-time platform tracking shareholder yield, solvency, and capital allocation across Energy Majors.*
 
-**[🚀 Launch Live Dashboard](https://energy-capital-monitor.streamlit.app)**
+**[🚀 Launch Live Dashboard](https://eganl2024-sudo-post-covid-recovery-in-oil-and-gas-app-lrw3ax.streamlit.app/)**
 
 * **The Challenge:** Post-2020, energy investors shifted from rewarding production growth to rewarding capital discipline and cash returns.
 * **The Solution:** Engineered a live diagnostic engine normalizing global accounting data (US GAAP vs. IFRS) to calculate Dividend Sustainability Ratios (DSR) and cash breakevens in real-time. Built interactive "Oil Price Shock" simulator testing 0-50% operating cash flow downturn scenarios across 7 energy majors.
@@ -74,9 +74,12 @@ Currently serving as President of the **Student-Athlete Advisory Council** at No
 
 ### 📂 Selected Project Portfolio
 
-**[Grow Irish: Performance Analytics Platform](https://github.com/eganl2024-sudo/MDP_APP)**
+**[Grow Irish: Performance Analytics Platform](https://github.com/eganl2024-sudo/Grow_Irish_App)**
+
+**[🚀 Launch Live Dashboard](https://mdp-app.streamlit.app/)**
+
 * **Scope:** GPS-based session intensity and metabolic power demand (MDP) analysis application for Division I soccer athletes.
-* **Impact:** Transforms raw GPS tracking data into actionable coaching insights, analyzing peak power output across 10s/20s/30s windows to optimize workload distribution and reduce soft-tissue injury risk. Features dual "Coach vs. Analyst" views for different stakeholder needs.
+* **Impact:** Deployed for Notre Dame soccer program, processing training sessions to analyze peak power output across 10s/20s/30s windows. Optimizes workload distribution and reduces soft-tissue injury risk through dual "Coach vs. Analyst" views tailored for different stakeholder needs.
 * **Stack:** Streamlit, Python (Pandas, NumPy, SciPy), GPS Data Processing, Z-score Normalization, Multi-page Application Architecture.
 
 ---
