@@ -10,42 +10,53 @@
 ---
 
 ### 🏛️ Professional Summary
-**Engineering-driven Analyst transitioning to Energy Investment Banking.**
-I leverage a background in **Chemical Process Engineering** (Thermodynamics, Mass Balance) to build rigorous financial intelligence platforms for the energy sector. My work focuses on quantifying the "Physical Reality" of assets—rejecting standard accounting assumptions in favor of engineered precision (e.g., modeling reservoir decline curves vs. perpetual growth).
 
-Currently President of the **Student-Athlete Advisory Council** at Notre Dame, representing 700+ D1 athletes while completing an MSBA.
+**Engineering-driven analyst building financial intelligence platforms for energy markets.**
+
+I leverage a background in **Chemical Process Engineering** to connect physical commodity flows with equity valuations. My work focuses on quantifying operational reality—building models that bridge refinery unit economics, reservoir physics, and capital markets to answer questions standard accounting can't address.
+
+Currently serving as President of the **Student-Athlete Advisory Council** at Notre Dame, representing 700+ Division I athletes while completing my MSBA.
 
 ---
 
-### 🚀 Flagship Intelligence Platforms
+### 🚀 Flagship Projects
 
-#### 1. [Refinery Arbitrage Engine: Real-Time Crack Spread Monitor](https://github.com/eganl2024-sudo/Refinery-Arbitrage-Engine)
-*A physical commodities monitor correlating the 3:2:1 crack spread to downstream equity valuations.*
+#### 1. [Refinery Arbitrage Engine (Live Analytics Platform)](https://github.com/eganl2024-sudo/Refinery-Arbitrage-Engine)
+*Real-time commodity margin & equity valuation monitor for downstream energy.*
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://refinery-arbitrage-engine-uturqbhqngbykahhfonr6k.streamlit.app/)
+**[🚀 Launch Live Dashboard](https://refinery-arbitrage-engine-uturqbhqngbykahhfonr6k.streamlit.app/)**
 
-* **The Thesis:** Refinery valuations are derivative of physical processing margins, yet often decouple due to capital allocation strategies.
-* **The Solution:** Built a live analytics engine that ingests Real-Time Futures (CL=F, RB=F, HO=F) to solve the mass balance equation and model implied EBITDA impacts.
-* **Key Alpha:** Identifies disjoints between "Physical Reality" (Spot Margins) and "Financial Reality" (Share Price), revealing that Valero (VLO) is currently driven more by buybacks (`0.11` correlation) than day-to-day spread volatility.
-* **Stack:** Streamlit, Plotly, Statsmodels (Rolling Correlation), `yfinance`.
+* **The Challenge:** Refinery equities should correlate with physical crack spreads, but the relationship is complex and regime-dependent.
+* **The Solution:** Built a production-grade analytics engine modeling the industry-standard 3:2:1 crack spread with Natural Gas OpEx integration to calculate net refining margins. Implemented dual-methodology correlation analysis (price levels vs. returns) to identify when physical margins decouple from equity performance.
+* **Key Findings:** 
+  - Testing both methodologies revealed Valero (VLO) responds to short-term margin volatility (0.26 daily correlation) but decouples long-term (0.11 level correlation)
+  - Valero's $10B+ in share buybacks dominated returns more than spot spreads over 2020-2025 period
+  - Valuation model quantifies $9B EBITDA impact from $10/bbl margin expansion at current throughput
+* **Stack:** Python, Streamlit, Plotly Interactive, yfinance API, Statsmodels (OLS), Auto-generated Executive Summaries.
 
 #### 2. [Energy Capital Discipline Monitor (Live Risk Engine)](https://github.com/eganl2024-sudo/Post-COVID-recovery-in-Oil-and-Gas)
-*A real-time fintech platform tracking shareholder yield, solvency, and capital allocation across the Oil & Gas Super-Majors.*
+*Real-time platform tracking shareholder yield, solvency, and capital allocation across Energy Majors.*
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://energy-capital-monitor.streamlit.app)
+**[🚀 Launch Live Dashboard](https://energy-capital-monitor.streamlit.app)**
 
-* **The Thesis:** The market has shifted from "Volume" to "Value." Investors no longer reward growth; they reward **Cash Flow Durability**.
-* **The Solution:** Engineered a live diagnostic engine that normalizes global accounting data (US GAAP vs. IFRS) to calculate **Dividend Sustainability Ratios (DSR)** and **Cash Breakevens** in real-time.
-* **Key Alpha:** Built an interactive "Oil Price Shock" simulator (0-50% OCF downturn). **Finding:** Shell (SHEL) currently displays higher solvency resilience than Chevron (CVX) under a 40% crash scenario, challenging historical sector norms.
-* **Stack:** Python, Streamlit (Bloomberg UI), `yfinance` Data Ingress, LRU Caching, Arps-style Breakeven Logic.
+* **The Challenge:** Post-2020, energy investors shifted from rewarding production growth to rewarding capital discipline and cash returns.
+* **The Solution:** Engineered a live diagnostic engine normalizing global accounting data (US GAAP vs. IFRS) to calculate Dividend Sustainability Ratios (DSR) and cash breakevens in real-time. Built interactive "Oil Price Shock" simulator testing 0-50% operating cash flow downturn scenarios across 7 energy majors.
+* **Key Findings:**
+  - Shell (SHEL) displays higher solvency resilience than Chevron (CVX) under 40% downturn scenarios
+  - FCF conversion ratios reveal companies funding dividends with cash generation vs. debt
+  - Real-time monitoring identifies sector leaders in capital discipline
+* **Stack:** Python, Streamlit, yfinance API, LRU Caching, Custom Bloomberg-style UI, Plotly Charts.
 
-#### 3. [Energy Valuation Engine: The "Managed Decline" Model](https://github.com/eganl2024-sudo/Energy-Valuation-Analysis)
-*A forward-looking valuation tool designed to stress-test Energy Majors against the energy transition.*
+#### 3. [Energy Valuation Engine: "Managed Decline" Model](https://github.com/eganl2024-sudo/Energy-Valuation-Analysis)
+*Scenario-based valuation platform stress-testing Energy Majors against energy transition.*
 
-* **The Problem:** Standard DCF models assume perpetual +2% growth, ignoring the physical reality of reservoir depletion.
-* **The Solution:** Architected a "Managed Decline" valuation logic (-1.5% terminal growth) to quantify the floor value of fossil assets.
-* **Key Alpha:** Modeled **ExxonMobil (XOM)** to reveal ~13% upside at $85/bbl oil, identifying a "Cash Cow" arbitrage opportunity where the market is pricing in an overly aggressive transition.
-* **Stack:** Python (Pandas), Sensitivity Analysis (Football Fields), WACC/CAPM Stratification.
+* **The Challenge:** Standard DCF models assume perpetual +2% growth, ignoring physical reality of reservoir depletion and secular demand shifts.
+* **The Solution:** Architected "Managed Decline" valuation framework with -1.5% terminal growth rate for fossil assets to quantify floor value. Implemented WACC/CAPM stratification differentiating upstream risk (β=1.25) from utility risk (β=0.95). Built modular architecture separating assumptions, logic, and data for model governance.
+* **Key Findings:**
+  - ExxonMobil (XOM) model implies ~13% upside at $85/bbl oil, suggesting market pricing in faster transition than fundamentals support
+  - Bear case ($60 oil) yields $64/share, highlighting massive commodity beta in integrated majors
+  - Near-term cash flows justify current valuations despite long-term terminal value uncertainty
+* **Stack:** Python (Pandas, NumPy), DCF/WACC Models, Sensitivity Analysis (Football Fields), Jupyter, yfinance API.
 
 ---
 
@@ -53,27 +64,29 @@ Currently President of the **Student-Athlete Advisory Council** at Notre Dame, r
 
 | Domain | Toolkit |
 | :--- | :--- |
-| **Financial Analysis** | DCF Valuation, LBO Fundamentals, Dividend Stress Testing, Shareholder Yield Analysis, Capital Discipline Modeling |
-| **Data Engineering** | Python (Pandas, NumPy), SQL, R, Live API Integration (`yfinance`), Data Normalization (IFRS/GAAP Mapping) |
-| **Process Engineering** | Aspen Plus, Process Simulation, Mass & Energy Balance, Capital Cost Estimation (CAPEX/OPEX) |
-| **Visualization** | Streamlit, Plotly (Dynamic Event Overlays), Tableau, Advanced Excel |
+| **Financial Modeling** | DCF Valuation, LBO Fundamentals, Dividend Stress Testing, WACC/CAPM, Crack Spread Modeling, OpEx Analysis, Sensitivity Analysis |
+| **Data Engineering** | Python (Pandas, NumPy, SciPy), SQL, R, Live API Integration (yfinance), Real-time Futures Data, Data Normalization (IFRS/GAAP) |
+| **Statistical Analysis** | Correlation Analysis (Levels vs Returns), Z-Score/Percentile Signals, Regression, Rolling Window Analysis, Time Series, OLS |
+| **Process Engineering** | Aspen Plus, Process Simulation, Mass & Energy Balance, Capital Cost Estimation (CAPEX/OPEX), Unit Operations, Refinery Economics |
+| **Visualization & Deployment** | Streamlit, Plotly Interactive, Tableau, Advanced Excel, Bloomberg-style Dashboards, Git/GitHub |
 
 ---
 
 ### 📂 Selected Project Portfolio
 
-**[Grow Irish: Performance Telemetry Platform](https://github.com/eganl2024-sudo/Grow_Irish_App)**
-* **Scope:** Full-stack development of a telemetry application to optimize Metabolic Power Demand (MPD) for D1 athletes.
-* **Impact:** Deployed a "Coach vs. Analyst" reporting dashboard currently used to reduce soft-tissue injury risk during training blocks.
-* **Stack:** Streamlit, SQL, GPS Data Processing.
-
-**[FIFA Player Progression: Deep Learning](https://github.com/eganl2024-sudo/fifa-player-progression)**
-* **Scope:** Predicting FIFA Player rating changes using Deep Learning.
-* **Impact:** Achieved 5% improvement over baseline linear models, identifying key developmental curves for youth prospects.
-* **Stack:** Python, Keras/TensorFlow, Jupyter Notebooks.
+**[Grow Irish: Performance Analytics Platform](https://github.com/eganl2024-sudo/MDP_APP)**
+* **Scope:** GPS-based session intensity and metabolic power demand (MDP) analysis application for Division I soccer athletes.
+* **Impact:** Transforms raw GPS tracking data into actionable coaching insights, analyzing peak power output across 10s/20s/30s windows to optimize workload distribution and reduce soft-tissue injury risk. Features dual "Coach vs. Analyst" views for different stakeholder needs.
+* **Stack:** Streamlit, Python (Pandas, NumPy, SciPy), GPS Data Processing, Z-score Normalization, Multi-page Application Architecture.
 
 ---
 
 <div align="center">
-<sub>&copy; 2026 Liam Egan. Built for Energy Finance.</sub>
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red)
+![Focus](https://img.shields.io/badge/Focus-Energy%20Finance-green)
+
+<sub>© 2026 Liam Egan | Built for Energy Finance</sub>
+
 </div>
