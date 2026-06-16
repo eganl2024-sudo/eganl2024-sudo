@@ -42,7 +42,6 @@ Across my projects, I build analytical tools that connect:
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-Streamlit-FF4B4B?style=flat&logo=streamlit)](https://permian-well-economics.streamlit.app) [![Tests](https://img.shields.io/badge/Tests-51_passing-2ECC71?style=flat)](https://github.com/eganl2024-sudo/permian-well-economics/tree/main/tests)
 [Repository](https://github.com/eganl2024-sudo/permian-well-economics) | [Live Dashboard](https://permian-well-economics.streamlit.app)
 
-> *"I don't have an upstream internship on my resume. So I built the analytics tools upstream analysts use and learned the reservoir physics behind them."*
 
 - Implemented **Arps decline curve models** (exponential, hyperbolic, harmonic, modified hyperbolic) with AIC-based model selection and **P10/P50/P90 EUR confidence intervals** from fitted parameter covariance matrices
 - Built a full **monthly cash flow engine** producing PV10, IRR, payback period, breakeven WTI, F&D cost, and NPV per lateral foot — with a 5×7 WTI × D&C cost sensitivity heatmap and Excel export
