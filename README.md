@@ -76,6 +76,19 @@ Across my projects, I build analytical tools that connect:
 
 ---
 
+### Energy Sentiment Pipeline
+**Real-time market intelligence platform for energy news and sentiment analysis**  
+[Repository](https://github.com/eganl2024-sudo/energy-sentiment-pipeline) | [Live Dashboard](https://energy-sentiment-pipeline.streamlit.app/)
+
+- Built a live NLP pipeline to transform **unstructured energy-sector news** into a quantitative sentiment signal
+- Applied **FinBERT-based financial sentiment classification** to headlines tied to major energy equities and refining-sensitive names
+- Paired sentiment scoring with a live **3:2:1 crack spread context layer** to compare market tone with physical margin conditions
+- Designed the system to support faster interpretation of **news flow, commodity conditions, and sector narrative shifts**
+
+**Focus:** Market sentiment, unstructured data, financial NLP, energy market intelligence
+
+---
+
 ## Additional Project Work
 
 ### Grow Irish: Performance Analytics Platform
