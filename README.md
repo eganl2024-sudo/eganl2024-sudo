@@ -15,9 +15,9 @@
 
 I am a Notre Dame student with an unusual combination for someone targeting energy IB: a chemical engineering foundation that gives me genuine fluency in reservoir physics and refinery operations, layered with financial modeling and business analytics training focused on how physical fundamentals translate into equity value and capital allocation decisions.
 
-Most people coming out of finance programs can build a DCF. Fewer can explain why a modified hyperbolic decline curve is the correct model for unconventional Permian wells, why terminal growth assumptions systematically overstate long-duration hydrocarbon asset values, or what the 3:2:1 crack spread actually measures and why it compresses the way it does. I build analytical tools that work from the physical reality of energy systems up to the financial conclusions — not the other way around.
+Most people coming out of finance programs can build a DCF. Fewer can explain why a modified hyperbolic decline curve is the correct model for unconventional Permian wells, why terminal growth assumptions systematically overstate long-duration hydrocarbon asset values, or what the 3:2:1 crack spread measures actually and why it compresses the way it does. I build analytical tools that work from the physical reality of energy systems up to the financial conclusions — not the other way around.
 
-I am particularly interested in **upstream E&P, midstream, and downstream energy finance**, and roles where engineering judgment and financial modeling intersect.
+I am particularly interested in **upstream E&P, midstream, and downstream energy finance**, as well as roles where engineering judgment and financial modeling intersect.
 
 ---
 
