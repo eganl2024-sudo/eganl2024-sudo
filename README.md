@@ -1,7 +1,6 @@
 <div align="center">
 
 # Liam Egan
-**MSBA candidate targeting energy investment banking — chemical engineering + financial modeling + data analytics**
 
 **B.S. Chemical Engineering + M.S. Business Analytics, University of Notre Dame ('26)**
 
